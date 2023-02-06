@@ -1,5 +1,7 @@
+cmake_minimum_required(VERSION 3.22)
+
 project(WalkItServer)
 
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/out)
-
-add_subdirectory(src)
+add_subdirectory(Database)
+add_subdirectory(HttpServer)
+add_subdirectory(Main)
