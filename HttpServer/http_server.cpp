@@ -2,5 +2,5 @@
 
 void startListening(int port)
 {
-  std::cout << "Listening on port " << port << "..." << std::endl;
+    std::cout << "Listening on port " << port << "..." << std::endl;
 }

@@ -4,7 +4,7 @@
 
 int main()
 {
-  std::cout << "Number of Maps: " << getNumberOfMaps() << std::endl;
-  startListening(8080);
-  return 0;
+    std::cout << "Number of Maps: " << getNumberOfMaps() << std::endl;
+    startListening(8080);
+    return 0;
 }

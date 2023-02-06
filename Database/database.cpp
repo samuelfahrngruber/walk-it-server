@@ -1,4 +1,4 @@
 int getNumberOfMaps()
 {
-  return 3;
+    return 3;
 }
